@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:np_width="70dp"
+            app:np_orientation="horizontal"
+            android:id="@+id/picker"
+            app:np_height="180dp"/>
+
+
+    </LinearLayout>
+
+</layout>
